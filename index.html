@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jay - 3D Character & Environment Artist Portfolio">
+    <title>Jay | 3D Artist Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Syncopate:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="home" class="hero">
+        <div class="hero-top-bar">
+            <a href="#home" class="hero-logo">JAY.3D</a>
+            <div class="hero-nav-icons">
+                <button class="dock-item profile-toggle" aria-label="Profile">
+                    <img src="assets/profile_pic.png" alt="Profile">
+                </button>
+                <a href="#portfolio" class="dock-item" aria-label="Portfolio" title="Portfolio"><i
+                        class="fas fa-th-large"></i></a>
+                <a href="#about" class="dock-item" aria-label="About" title="About"><i class="fas fa-user"></i></a>
+
+                <div class="profile-popup" id="profilePopup">
+                    <div class="sidebar-card">
+                        <div class="avatar-container">
+                            <img src="assets/profile_pic.png" alt="Jay">
+                        </div>
+                        <h2 class="profile-name">Jay Mistry</h2>
+                        <p class="profile-tagline">Turning ideas into 3D reality! 🧠 ✨</p>
+
+                        <div class="profile-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Navsari, India</p>
+                            <p><i class="fas fa-globe"></i> <a href="https://jay.artstation.com"
+                                    target="_blank">jay.artstation.com</a></p>
+                        </div>
+
+                        <div class="profile-actions">
+                            <button class="btn-follow"><i class="fas fa-user-plus"></i> Follow</button>
+                            <button class="btn-message"><i class="fas fa-envelope"></i> Message</button>
+                        </div>
+
+                        <div class="profile-bio">
+                            <p>A highly motivated and creative beginner 3D artist with a strong passion for visual...
+                                <br><br><a href="#" class="show-more">Show more</a>
+                            </p>
+                        </div>
+
+                        <div class="profile-interested">
+                            <p style="color: #e0e0e5; font-size: 0.9rem; margin-top: 25px;">Interested In</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h2 class="subtitle">3D Character & Environment Artist</h2>
+            <h1 class="title">BRINGING<br><span class="highlight">IMAGINATION</span><br>TO LIFE.</h1>
+            <a href="#portfolio" class="cta-btn">View My Work <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="hero-bg-overlay"></div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About <span class="highlight">Me</span></h2>
+
+                <p>Hello! I'm Jay, a passionate 3D artist specializing in Skilled in creating detailed 3D models,
+                    character sculpting, and preparing designs for 3D printing.Quick learner with strong interest in the
+                    3D printing industry and product design.Dedicated to improving modeling skills, learning new
+                    techniques, and working on innovative projects.Able to work with patience, creativity, and attention
+                    to detail. Looking for an internship opportunity to gain practical industry experience and growing
+                    as a 3D artist and designer.</p>
+
+                <div class="skills">
+                    <h3>Software & Tools</h3>
+                    <div class="skill-tags">
+                        <span>ZBrush</span>
+                    </div>
+
+                    <h3 style="margin-top: 25px;">Core Skills</h3>
+                    <div class="skill-tags">
+                        <span>3D models Design</span>
+                        <span>Character Design</span>
+                        <span>Jewelry Design</span>
+                        <span>CNC Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-image">
+                <div class="image-placeholder">
+                    <img src="assets/profile_pic.png" alt="Artist Avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+
+        <div class="section-header">
+            <h2>Selected <span class="highlight">Works</span></h2>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="3dmodels">3D models Design</button>
+                <button class="filter-btn" data-filter="character">Character Design</button>
+                <button class="filter-btn" data-filter="jewelry">Jewelry Design</button>
+                <button class="filter-btn" data-filter="cnc">CNC Design</button>
+                <button class="filter-btn" data-filter="CartoonCharacter"> Cartoon Character Design</button>
+                <button class="filter-btn" data-filter="animal">Animal</button>
+            </div>
+        </div>
+
+        <div class="grid-container">
+
+            <!-- MAIN 6 IMAGES -->
+
+            <!-- To add 3D models Design Section:- -->
+
+            <div class="project-card" data-category="3dmodels">
+                <img src="assets\Fish Side Image.jpg" alt="3D Model">
+                <div class="project-info">
+                    <p>3D models Design</p>
+                </div>
+            </div>
+
+            <!-- To add Character Design Section:- -->
+
+            <div class="project-card" data-category="character">
+                <img src="assets\Mother&Son.jpeg" alt="Character">
+                <div class="project-info">
+                    <p>Character Design</p>
+                </div>
+            </div>
+
+            <!-- To add Jewelry Design Section:- -->
+
+            <div class="project-card" data-category="jewelry">
+                <img src="assets\HanumanDada Front Image.jpg" alt="Jewelry">
+                <div class="project-info">
+                    <p>Jewelry Design</p>
+                </div>
+            </div>
+
+            <!-- To add CNC Design Section:- -->
+
+            <div class="project-card" data-category="cnc">
+                <img src="assets\Flower pot 1 Image.jpg" alt="CNC Model" style="filter: hue-rotate(180deg);">
+                <div class="project-info">
+                    <p>CNC Design</p>
+                </div>
+            </div>
+
+            <!-- To add Cartoon Character Section:- -->
+
+            <div class="project-card" data-category="CartoonCharacter">
+                <img src="assets\Chota Bheem Image.jpg" alt="Cartoon character" style="filter: hue-rotate(45deg);">
+                <div class="project-info">
+                    <p>Cartoon Character</p>
+                </div>
+            </div>
+
+            <!-- To add Animal Design Section:- -->
+
+            <div class="project-card" data-category="animal">
+                <img src="assets\Flying Egal Image.jpg" alt="Animal Design" style="filter: hue-rotate(-90deg);">
+                <div class="project-info">
+                    <p>Animal Design</p>
+                </div>
+            </div>
+
+            <!-- EXTRA IMAGES -->
+            <!-- THESE WILL ONLY SHOW WHEN CATEGORY BUTTON IS CLICKED -->
+             
+            <!-- To add 3D models Design Section:- -->
+
+            <!-- <div class="project-card extra-card" data-category="3dmodels">
+                <img src="assets\Sit SaiBABA.jpeg" alt="3D models Design">
+                <div class="project-info">
+                    <p>3D models Design</p>
+                </div>
+            </div> -->
+
+            <!-- To add Character Design Section:- -->
+
+            <!-- <div class="project-card extra-card" data-category="character">
+                <img src="assets\Mother&Son.jpeg" alt="Character Design">
+                <div class="project-info">
+                    <p>Character Design</p>
+                </div>
+            </div> -->
+
+            <!-- To add Jewelry Design Section:- -->
+
+            <div class="project-card extra-card" data-category="jewelry">
+                <img src="assets\Pendent.jpg" alt="Jewelry Design">
+                <div class="project-info">
+                    <p>Jewelry Design</p>
+                </div>
+            </div>
+            <div class="project-card extra-card" data-category="jewelry">
+                <img src="assets\Jejas.jpeg" alt="Jewelry Design">
+                <div class="project-info">
+                    <p>Jewelry Design</p>
+                </div>
+            </div>
+            <div class="project-card extra-card" data-category="jewelry">
+                <img src="assets\SaiBaba.jpeg" alt="Jewelry Design">
+                <div class="project-info">
+                    <p>Jewelry Design</p>
+                </div>
+            </div>
+
+            <!-- To add CNC Design Section:- -->
+            
+            <div class="project-card extra-card" data-category="cnc">
+                <img src="assets\Flower Pot 2 Image.jpg" alt="CNC Design">
+                <div class="project-info">
+                    <p>CNC Design</p>
+                </div>
+            </div>
+
+            <!-- To add Cartoon Character Section:- -->
+
+            <div class="project-card extra-card" data-category="CartoonCharacter">
+                <img src="assets\Cartoon Character.jpeg" alt="Cartoon Character">
+                <div class="project-info">
+                    <p>Cartoon Character</p>
+                </div>
+            </div>
+
+            <!-- To add Animal Design Section:- -->
+            
+            <div class="project-card extra-card" data-category="animal">
+                <img src="assets\Cat.jpeg" alt="Animal Design">
+                <div class="project-info">
+                    <p>Animal Design</p>
+                </div>
+            </div>
+            <div class="project-card extra-card" data-category="animal">
+                <img src="assets\Gorilo.jpeg" alt="Animal Design">
+                <div class="project-info">
+                    <p>Animal Design</p>
+                </div>
+            </div>
+            <div class="project-card extra-card" data-category="animal">
+                <img src="assets\Shark.jpeg" alt="Animal Design">
+                <div class="project-info">
+                    <p>Animal Design</p>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Let's <span class="highlight">Connect</span></h2>
+        <p>Available for freelance opportunities and exciting projects.</p>
+
+        <div class="contact-links">
+
+            <a href="mailto:jay@example.com" class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <span>Email Me</span>
+            </a>
+
+            <a href="https://wa.me/8849635397" target="_blank" class="contact-card">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/jay-kalathiya-0b7576365/" target="_blank" class="contact-card">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Jay 3D Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script>
+
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const projectCards = document.querySelectorAll(".project-card");
+        const extraCards = document.querySelectorAll(".extra-card");
+
+        // HIDE EXTRA IMAGES ON PAGE LOAD
+        extraCards.forEach(card => {
+            card.style.display = "none";
+        });
+
+        filterButtons.forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                const category = button.getAttribute("data-filter");
+
+                filterButtons.forEach(btn => btn.classList.remove("active"));
+                button.classList.add("active");
+
+                // SHOW ONLY MAIN 6 IMAGES
+                if (category === "all") {
+
+                    projectCards.forEach(card => {
+
+                        if (card.classList.contains("extra-card")) {
+                            card.style.display = "none";
+                        } else {
+                            card.style.display = "block";
+                        }
+
+                    });
+
+                }
+
+                // SHOW CATEGORY IMAGES
+                else {
+
+                    projectCards.forEach(card => {
+
+                        if (card.getAttribute("data-category") === category) {
+                            card.style.display = "block";
+                        } else {
+                            card.style.display = "none";
+                        }
+
+                    });
+
+                }
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
